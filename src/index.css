@@ -1,7 +1,7 @@
 body {
-  margin: 0;
-  background-color: black;
-  color: darkslategray;
+  font-size: 1.5rem;
+  background-color: dodgerblue;
+  color: white;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -11,6 +11,23 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Monaco',
     monospace;
+}
+
+button {
+  border-radius: 10%;
+  font-size: 1rem;
+  margin: 0.25rem;
+}
+
+input {
+  margin: 0.5rem;
+}
+
+#list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: flex-end;
 }
