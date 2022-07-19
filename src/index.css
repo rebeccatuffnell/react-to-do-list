@@ -1,6 +1,7 @@
 body {
   font-size: 1.5rem;
-  background-color: dodgerblue;
+  height: 100vh;
+  background: linear-gradient(#3A03AC, #4361EE, dodgerblue, #4895EF);
   color: white;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
